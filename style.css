@@ -31,10 +31,16 @@ body {
     gap: 30px;
 }
 
+.nav-menu > a {
+    padding-top: 5%;
+}
+
+
 .hero-container{
     display: flex;
     height: 470px;
     padding: 0 10%;
+    justify-content: space-around;
 }
 
 .hero-container > div{
@@ -46,7 +52,7 @@ body {
 }
 
 .hero-container h1 {
-    font-size: 60px;
+    font-size: 40px;
     width: 360px;
     margin: 20px 0;
     font-weight: bolder;
@@ -58,24 +64,20 @@ body {
 }
 
 .hero-container > img{
-    width: 50%;
-    height: 323px;
+    width: 20%;
     align-self: center;
 }
 
 .description-container {
     height: 280px;
-    margin: 40px 0;
-    padding: 0 10%;
+    margin-bottom: 50px;
     display: flex;
-   
+    align-items: center;
+    justify-content: center;
 }
 
 .description-container > div {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
     flex-direction: column;
     box-shadow: 0px 4px 8px 0px rgba(1, 1, 1, 0.1);
     border-top: 1px solid rgb(228, 228, 228);
@@ -84,20 +86,13 @@ body {
 .description-container h2 {
     color: var(--darkGray);
     font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
 }
 
 .description-container p {
     color: var(--gray);
-}
-
-.description-container > div > div {
-    width: 500px;
-}
-
-.description-container > img {
-    width: 40%;
-    object-fit: cover;
-    display: flex;
+    padding: 1%;
 }
 
 .description-left-footer {
